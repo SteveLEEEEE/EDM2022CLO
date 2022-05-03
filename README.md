@@ -311,10 +311,10 @@ For any questions about the dataset or the notebooks, please contact Yuheng Li v
 If you are using our data or codes, please cite (the BibTeX will be updated when the paper is published):
 ```
 @paper{EDM2022CLO,
-author = {Yuheng Li, Mladen Raković, Boon Xin Poh, Dragan Gašević, Guanliang Chen},
-title = {Automatic Classification of Learning Objectives Based on Bloom's Taxonomy},
-conference = {The 15th International Conference on Educational Data Mining},
-year = {2022}
+  author = {Yuheng Li, Mladen Raković, Boon Xin Poh, Dragan Gašević, Guanliang Chen},
+  title = {Automatic Classification of Learning Objectives Based on Bloom's Taxonomy},
+  conference = {The 15th International Conference on Educational Data Mining},
+  year = {2022}
 }
 
 ```
