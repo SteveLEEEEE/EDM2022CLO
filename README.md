@@ -13,14 +13,6 @@ The experiments with respect to machine learning binary classifiers and BERT-bas
 
 
 ## 4. Results
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -311,7 +303,6 @@ The experiments with respect to machine learning binary classifiers and BERT-bas
   </tr>
 </tbody>
 </table>
-The best performances for different metrics, different models and different Bloom's taxonomy levels are in bold.
 
 ## 5. Contact
 For any questions about the dataset or the notebooks, please contact Yuheng Li via yuheng.li@monash.edu or yuhengleeeee@gmail.com
