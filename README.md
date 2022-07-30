@@ -310,11 +310,20 @@ For any questions about the dataset or the notebooks, please contact Yuheng Li v
 ## 6. Citation
 If you are using our data or codes, please cite (the BibTeX will be updated when the paper is published):
 ```
-@paper{EDM2022CLO,
-  author = {Yuheng Li, Mladen Raković, Boon Xin Poh, Dragan Gašević, Guanliang Chen},
-  title = {Automatic Classification of Learning Objectives Based on Bloom's Taxonomy},
-  conference = {The 15th International Conference on Educational Data Mining},
-  year = {2022}
+@inproceedings{2022.EDM-short-papers.55,
+	title        = {Automatic Classification of Learning Objectives Based on {Bloomâ€™s} Taxonomy},
+	author       = {Yuheng Li and Mladen Rakovic and Boon Xin Poh and Dragan Gasevic and Guanliang Chen},
+	year         = 2022,
+	month        = {July},
+	booktitle    = {Proceedings of the 15th International Conference on Educational Data Mining},
+	publisher    = {International Educational Data Mining Society},
+	address      = {Durham, United Kingdom},
+	pages        = {530--537},
+	doi          = {10.5281/zenodo.6853191},
+	isbn         = {978-1-7336736-3-1},
+	abstract     = {Learning objectives, especially those well defined by applying Bloomâ€™s taxonomy for Cognitive Objectives, have been widely recognized as important in various teaching and learning practices. However, many educators have difficulties developing learning objectives appropriate to the levels in Bloomâ€™s taxonomy, as they need to consider the progression of learnersâ€™ skills with learning content as well as dependencies between different learning objectives. To remedy this challenge, we aimed to apply state-of-the-art computational techniques to automate the classification of learning objectives based on Bloomâ€™s taxonomy. Specifically, we collected 21,380 learning objectives from 5,558 different courses at an Australian university and manually labeled them according to the six cognitive levels of Bloomâ€™s taxonomy. Based on the labeled dataset, we applied five conventional machine learning approaches (i.e., naive Bayes, logistic regression, support vector machine, random forest, and XGBoost) and one deep learning approach based on pre-trained language model BERT to construct classifiers to automatically determine a learning objectiveâ€™s cognitive levels. In particular, we adopted and compared two methods in constructing the classifiers, i.e., constructing multiple binary classifiers (one for each cognitive level in Bloomâ€™s taxonomy) and constructing only one multi-class multi-label classifier to simultaneously identify all the corresponding cognitive levels. Through extensive evaluations, we demonstrated that: (i) BERT-based classifiers outperformed the others in all cognitive levels (Cohenâ€™s Kappa up to 0.93 and F1 score up to 0.95); (ii) three machine learning models â€“ support vector machine, random forest, and XGBoost â€” delivered performance comparable to the BERT-based classifiers; and (iii) most of the binary BERT-based classifiers (5 out of 6) slightly outperformed the multi-class multi-label BERT-based classifier, suggesting that separating the characterization of different cognitive levels seemed to be a better choice than building only one model to identify all cognitive levels at one time.},
+	editor       = {Antonija Mitrovic and Nigel Bosch}
 }
+
 
 ```
