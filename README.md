@@ -308,7 +308,7 @@ The experiments with respect to machine learning binary classifiers and BERT-bas
 For any questions about the dataset or the notebooks, please contact Yuheng Li via yuheng.li@monash.edu or yuhengleeeee@gmail.com
 
 ## 6. Citation
-If you are using our data or codes, please cite (the BibTeX will be updated when the paper is published):
+If you are using our data or codes, please cite:
 ```
 @inproceedings{2022.EDM-short-papers.55,
 	title        = {Automatic Classification of Learning Objectives Based on {Bloomâ€™s} Taxonomy},
