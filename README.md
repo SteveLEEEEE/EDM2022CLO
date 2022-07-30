@@ -311,7 +311,7 @@ For any questions about the dataset or the notebooks, please contact Yuheng Li v
 If you are using our data or codes, please cite:
 ```
 @inproceedings{2022.EDM-short-papers.55,
-	title        = {Automatic Classification of Learning Objectives Based on {Bloomâ€™s} Taxonomy},
+	title        = {Automatic Classification of Learning Objectives Based on Bloom's Taxonomy},
 	author       = {Yuheng Li and Mladen Rakovic and Boon Xin Poh and Dragan Gasevic and Guanliang Chen},
 	year         = 2022,
 	month        = {July},
